@@ -1,0 +1,87 @@
+/* Style for headings */
+h1 {
+  text-align: center;
+  color: red;
+}
+
+h2 {
+  text-align: center;
+  color: red;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* Navigation bar style */
+.navbar {
+  text-align: center;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+.navbar a {
+  margin: 10px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Paragraph text */
+p {
+  font-family:'Times New Roman', Times, serif;
+  padding: 0 20px;
+}
+
+/* Section spacing */
+section {
+  margin: 20px;
+  padding: 10px;
+  background-color: #fafafa;
+  border-radius: 8px;
+}
+
+/* Skill list */
+ul {
+  list-style-type: none;
+  padding-left: 40px;
+}
+.about-img {
+  float: right;
+  width: 140px;
+  margin-left: 20px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+
+html, body {
+  background-color:#cfc8c8;
+}
+section#About {
+  max-width: 1250px;
+  overflow: auto; /* This contains the float */
+  padding: 20px;
+  margin: 20px auto;
+  background-color: #fff;
+  border-radius: 12px;
+} 
+.no-underline{
+  text-decoration: none;
+  color:black;
+}
+header {
+  text-align: center;
+  margin: 20px;
+}
+
+header h1, header h2 {
+  margin: 0;
+}
+
+header p {
+  display: inline-block;
+  margin: 0 15px;
+  font-size: 16px;
+}
+
+header a {
+  text-decoration: none;
+  color: #1c95d6; 
+}
